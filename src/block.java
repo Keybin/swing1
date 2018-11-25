@@ -22,7 +22,7 @@ public class block {
     {
         timerUpdate = new Timer(time, new ActionListener() {
             public void actionPerformed(ActionEvent e) { vniz(); vbok(); }
-        });
+        }); //move
         this.img = img;
         act = false;
     }
